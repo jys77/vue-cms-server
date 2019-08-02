@@ -1,0 +1,19 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "A node server for my vue-cms-mobile project",
+  "main": "start.js",
+  "scripts": {
+    "server": "nodemon start.js"
+  },
+  "author": "jys77",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.6",
+    "nodemon": "^1.19.1",
+    "xss": "^1.0.6"
+  }
+}
